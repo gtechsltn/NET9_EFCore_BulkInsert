@@ -1,5 +1,7 @@
 # NET9 EFCore BulkInsert
 
+https://learn.microsoft.com/en-us/ef/core/miscellaneous/connection-strings?tabs=dotnet-core-cli
+
 ```
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
@@ -119,4 +121,20 @@ public class Startup
 
     // Other methods...
 }
+```
+
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=.;Initial Catalog=mssql;Integrated Security=SSPI;Connect Timeout=30;Pooling=True;Max Pool Size=10;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=true;"
+  },
+}
+```
+
+```
+dotnet ef migrations add InitialCreate
+```
+
+```
+dotnet ef database update
 ```
