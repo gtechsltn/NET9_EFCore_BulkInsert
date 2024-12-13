@@ -1,0 +1,1 @@
+# NET9_EFCore_BulkInsert
