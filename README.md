@@ -2,6 +2,10 @@
 
 https://learn.microsoft.com/en-us/ef/core/miscellaneous/connection-strings?tabs=dotnet-core-cli
 
+https://github.com/gtechsltn/DapperSelect/
+
+https://github.com/gtechsltn/NET9_EFCore_BulkInsert/
+
 ```
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
